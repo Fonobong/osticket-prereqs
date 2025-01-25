@@ -25,7 +25,7 @@ This is a demonstration which outlines the prerequisites and installation of the
 
 <h1>Ticketing System Installation Tutorial:</h1>
 
-<h2>Step 1. Virtual Machine Configuration</h2>
+<h2>Step 1. Configure Virtual Machine</h2>
 
 <p>
 <img src="https://i.imgur.com/9Z6Dagb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -35,18 +35,32 @@ On the home screen of Microsoft Azure, click the Virtual Machine icon and create
 </p>
 <br />
 
+<h2>Step 2. Log Into the Virtual Machine</h2>
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/59wmtVT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to your virtual machine and copy its public ip address. Open the remote desktop application and input the appropriate fields, including the ip you copied. When it is done initializing, you should be logged into a virtual Windows operating system.
 </p>
 <br />
 
+<h2>Step 3. Extract Folder Containing osTicket Installation Files</h2>
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0QBr437.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Within the virtual machine download the contents from https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD and unzip them unto your desktop, name the folder appropriately.  
+</p>
+<br />
+
+<h2>Step 4. Install & Enable IIS and CGI</h2>
+
+<p>
+<img src="https://i.imgur.com/qWF45WO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Click on the start menu, then click on the Control Panel. In the Control Panel, go to programs and click "unintall programs". On the left side, click "Turn Windows features on or off" then scroll down to "Internet Information Systems" and click the box. After clicking it, expand the same box and find "World Wide Web Services" then expand "Application Development Features" then expand and scroll down to CGI, click the box, then press ok. The IIS will act as a web server within the virtual machine for osTicket. 
 </p>
 <br />
