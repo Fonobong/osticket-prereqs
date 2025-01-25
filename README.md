@@ -81,7 +81,7 @@ Install the PHP Manager for IIS and Rewrite Module from the osTicket installatio
 <img src="https://i.imgur.com/3jV6H6c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Click start, and type IIS then right click to run the application as an administrator. When it loads, click PHP Manager, click Register new PHP version and browse to the PHP folder on the Windows C: drive, and click "php.cgi". Open it then press ok. Next, reload the webserver.    
+Click start, and type IIS then right click the application to run "Internet Information Systems Manager" an administrator. When it loads, click PHP Manager, click "Register new PHP version" and browse to the PHP folder on the Windows C: drive, and click "php.cgi". Open it then press ok. Next, reload the webserver by clicking the green refresh symbol on the right side.    
 </p>
 <br />
 
