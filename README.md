@@ -74,3 +74,15 @@ Click on the start menu, then click on the Control Panel. In the Control Panel, 
 Install the PHP Manager for IIS and Rewrite Module from the osTicket installation files. Create a folder in the Windows C: drive called PHP where you will extract the PHP 7.3.8 files (not the PHP Manager) from the original installation files into for storage, like the image above. Next, install the C++ redistributable "VC_redist" as well as MySQL. Pick standard configuration for MySQL and make sure to write down or store your credentials so they can be remembered at a later time.    
 </p>
 <br />
+
+<h2>Step 6. Register PHP within IIS</h2>
+
+<p>
+<img src="https://i.imgur.com/3jV6H6c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Click start, and type IIS then right click to run the application as an administrator. When it loads, click PHP Manager, click Register new PHP version and browse to the PHP folder on the Windows C: drive, and click "php.cgi". Open it then press ok. Next, reload the webserver.    
+</p>
+<br />
+
+
