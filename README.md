@@ -85,4 +85,13 @@ Click start, and type IIS then right click the application to run "Internet Info
 </p>
 <br />
 
+<h2>Step 7. Install osTicket</h2>
+
+<p>
+<img src="https://i.imgur.com/3jV6H6c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open the osticket installation files and extract the contents from the osTicketv1.15.8 folder within. Inside of the osTicket folder, move the uploud folder to the wwwroot folder which cam be found by traversing from the Windows C: drive > inethub > wwwroot. Rename the uploud folder to "osTicket".      
+</p>
+<br />
 
