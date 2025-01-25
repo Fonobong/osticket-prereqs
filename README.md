@@ -31,7 +31,7 @@ This is a demonstration which outlines the prerequisites and installation of the
 <img src="https://i.imgur.com/9Z6Dagb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+On the home screen of Microsoft Azure, click the **Virtual Machine** icon and create a new virtual machine. In the Basic tab, scroll down and fill out all fields appropriately. At the bottommof the page, mark the **Licensing** check box, as shown in the graphic above. Failing to do so will stop the generation of any machines. When you are done configuring your machine, press the blue "Review and Create" button. You'll be taken to the **Review and Create** tab where you'll press the "Create" button and generate your virtual machine.  
 </p>
 <br />
 
