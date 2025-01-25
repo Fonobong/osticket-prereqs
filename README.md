@@ -17,10 +17,10 @@ This is a demonstration which outlines the prerequisites and installation of the
 
 <h2>List of Prerequisites for osTicket</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
+- PHP Manager for IIS
+- Rewrite Module
+- C++ Redistributable
+- MySQL
 - Item 5
 
 <h1>Ticketing System Installation Tutorial:</h1>
@@ -62,5 +62,15 @@ Within the virtual machine download the contents from https://drive.google.com/u
 </p>
 <p>
 Click on the start menu, then click on the Control Panel. In the Control Panel, go to programs and click "unintall programs". On the left side, click "Turn Windows features on or off" then scroll down to "Internet Information Systems" and click the box. After clicking it, expand the same box and find "World Wide Web Services" then expand "Application Development Features" then expand and scroll down to CGI, click the box, then press ok. The IIS will act as a web server within the virtual machine for osTicket. 
+</p>
+<br />
+
+<h2>Step 5. Install the Prerequisites for osTicket</h2>
+
+<p>
+<img src="https://i.imgur.com/MIaN8yF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install the PHP Manager for IIS and Rewrite Module from the osTicket installation files. Create a folder in the Windows C: drive called PHP where you will extract the PHP 7.3.8 files (not the PHP Manager) from the original installation files into for storage, like the image above. Next, install the C++ redistributable "VC_redist" as well as MySQL. Pick standard configuration for MySQL and make sure to write down or store your credentials so they can be remembered at a later time.    
 </p>
 <br />
