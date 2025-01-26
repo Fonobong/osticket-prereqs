@@ -115,5 +115,15 @@ Go back to osTicket in the IIS Manager, and click on the PHP Manager. Under PHP 
 </p>
 <br />
 
+<h2>Step 10. Rename and Reconfigure osTicket Configuration File</h2>
+
+<p>
+<img src="https://i.imgur.com/FZmL8Zf.png"/>
+</p>
+<p>
+Open File Explorer and traverse to the osTicket folder via Windows C: > inethub > wwwroot > osTicket > include > ost-sampleconfig.php. Once you scroll down to this file, rename it to ost-config.php. Right click this file and click properties > Security > Advanced > Disable Inheritance > Remove all inherited permissions from this object. Next, click Add, then click "Select a principal", add the appropriate object types, locations, and names and press ok (for the sake of this demonstration I put Everyone in the Names area). Proceed to check the necessary basic permissions and press ok (for the sake of demonstration I checked Full Control). Apply those permissions and press ok once more. Press ok one last time to confirm the properties.         
+</p>
+<br />
+
 
 
