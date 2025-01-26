@@ -21,7 +21,7 @@ This is a demonstration which outlines the prerequisites and installation of the
 - Rewrite Module
 - C++ Redistributable
 - MySQL
-- Item 5
+- HeidiSQL
 
 <h1>Ticketing System Installation Tutorial:</h1>
 
@@ -91,7 +91,7 @@ Click start, and type IIS then right click the application to run "Internet Info
 <img src="https://i.imgur.com/b7mA6tm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open the osticket installation files and extract the contents from the osTicketv1.15.8 folder within. Inside of the osTicket folder, move the uploud folder to the wwwroot folder which can be found by traversing from the Windows C: drive > inethub > wwwroot. Rename the uploud folder to "osTicket".      
+Open the osTicket-Installation-Files and extract the contents from the osTicketv1.15.8 folder within. Inside of the osTicket folder, move the uploud folder to the wwwroot folder which can be found by traversing from the Windows C: drive > inethub > wwwroot. Rename the uploud folder to "osTicket".      
 </p>
 <br />
 
@@ -135,5 +135,25 @@ Press Continue on osTicket webpage. Proceed to fill in the fields with the corre
 </p>
 <br />
 
+<h2>Step 12. Install and Configure Database</h2>
+
+<p>
+<img src="https://i.imgur.com/rY3W47Z.png"/> 
+<img src="https://i.imgur.com/7ve037T.png"/>
+</p>
+<p>
+Reopen the osTicket-installation-Files folder and click on HeidiSQL to install it. Once it hs finished, click the "New" button on the bottom left corner. Next. fill out the User and password fields with your MySQL credentials from Step 5, and click Open. Right click the Unnamed tab on the left side, click Create new and make a new Database named osTicket. Open the browser and fill in the rest of the fields for the Database Settings. After you're done, click Install Now.                   
+</p>
+<br /
+
+<h2>Step 13. Congratulations & Clean Up</h2>
+
+<p>
+<img src="https://i.imgur.com/INYSPaW.png"/> 
+</p>
+<p>
+If the demonstration was followed properly, this screen should prop up congratulating the user on successfully installing osTicket. This page also has directions for changing configuration file permissions, as well as links for different features for the ticketing system. This tutorial has been completed.                    
+</p>
+<br /
 
 
