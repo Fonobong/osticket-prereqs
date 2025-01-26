@@ -95,13 +95,25 @@ Open the osticket installation files and extract the contents from the osTicketv
 </p>
 <br />
 
-<h2>Step 8. Load the osTicket Site from the IIS</h2>
+<h2>Step 8. Load the osTicket Site from the IIS Manager</h2>
 
 <p>
 <img src="https://i.imgur.com/MLVR4uV.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Reopen the ISS and run it as an administrator like in Step 6. Click the green refresh button on the right side. Next, click the dropdown menu in the following order: osticket-vm > Site > Default Web Site > osticket. In osTicket, click the "Browse ":80 (http)" link on the right side which should open up the webpage for osTicket like the image displays.       
+Reopen the IIS Manager and run it as an administrator like in Step 6. Click the green refresh button on the right side. Next, click the dropdown menu in the following order: osticket-vm > Site > Default Web Site > osticket. In osTicket, click the "Browse ":80 (http)" link on the right side which should open up the webpage for osTicket like the image displays.       
 </p>
 <br />
+
+<h2>Step 9. Enable Necessary PHP Extensions</h2>
+
+<p>
+<img src="https://i.imgur.com/hFjiuuu.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go back to osTicket in the IIS Manager, and click on the PHP Manager. Under PHP Extensions click "Enable or disable an extension". Enable the following extensions: php_imap.dll, php_intl.dll, php_opcache.dll. Go back to the osTicket webpage and refresh it so that only these two Xs remain.        
+</p>
+<br />
+
+
 
