@@ -142,7 +142,7 @@ Press Continue on osTicket webpage. Proceed to fill in the fields with the corre
 <img src="https://i.imgur.com/7ve037T.png"/>
 </p>
 <p>
-Reopen the osTicket-installation-Files folder and click on HeidiSQL to install it. Once it hs finished, click the "New" button on the bottom left corner. Next. fill out the User and password fields with your MySQL credentials from Step 5, and click Open. Right click the Unnamed tab on the left side, click Create new and make a new Database named osTicket. Open the browser and fill in the rest of the fields for the Database Settings. After you're done, click Install Now.                   
+Reopen the osTicket-installation-Files folder and click on HeidiSQL to install it. Once it has finished, click the "New" button on the bottom left corner. Next. fill out the User and password fields with your MySQL credentials from Step 5, and click Open. Right click the Unnamed tab on the left side, click Create new and make a new Database named osTicket. Open the browser and fill in the rest of the fields for the Database Settings. After you're done, click Install Now.                   
 </p>
 <br />
 
