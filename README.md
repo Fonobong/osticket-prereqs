@@ -125,5 +125,15 @@ Open File Explorer and traverse to the osTicket folder via Windows C: > inethub 
 </p>
 <br />
 
+<h2>Step 11. Setup osTicket on the Browser</h2>
+
+<p>
+<img src="https://i.imgur.com/Mjh2GP8.png"/>
+</p>
+<p>
+Press Continue on osTicket webpage. Proceed to fill in the fields with the corresponding information for System Settings and Admin User. The emails used for each field have to be different.            
+</p>
+<br />
+
 
 
