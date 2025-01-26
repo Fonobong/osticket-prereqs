@@ -95,3 +95,13 @@ Open the osticket installation files and extract the contents from the osTicketv
 </p>
 <br />
 
+<h2>Step 8. Load the osTicket Site from the IIS</h2>
+
+<p>
+<img src="https://i.imgur.com/MLVR4uV.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Reopen the ISS and run it as an administrator like in Step 6. Click the green refresh button on the right side. Next, click the dropdown menu in the following order: osticket-vm > Site > Default Web Site > osticket. In osTicket, click the "Browse ":80 (http)" link on the right side which should open up the webpage for osTicket like the image displays.       
+</p>
+<br />
+
